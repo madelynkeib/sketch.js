@@ -1,0 +1,30 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(500);
+  rect(100, 100, 100, 50);
+describe('A red rectangle with a black outline on a gray canvas.');
+  ellipse(200, 50, 55, 55);
+describe('A white ellipse with black outline in middle of a gray canvas.');
+  arc(300, 50, 80, 80, 0, PI + QUARTER_PI);
+describe('A blue ellipse with the top-right third missing. The bottom is outlined in red.');
+  line(30, 200, 100, 100);
+describe(
+  'A red line on a orange canvas running from top-center to bottom-right.'
+);
+  noFill();
+stroke(150, 420, 69);
+line(100, 20, 10, 10);
+line(90, 90, 15, 80);
+stroke(50, 110, 69);
+bezier(100, 20, 50, 10, 90, 90, 15, 80);
+  noFill('red');
+beginShape(POINTS);
+vertex(150, 20);
+vertex(150, 50);
+vertex(120, 50);
+vertex(120, 20);
+endShape();
+}
