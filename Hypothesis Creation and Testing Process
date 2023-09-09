@@ -1,0 +1,57 @@
+// https://www.thewastewaterblog.com/hypothesis-testing - link to reference image
+function setup() {
+  createCanvas(500, 500);
+}
+function draw() {
+  fill('black') 
+  background('white');
+  textSize(18);
+  text('Hypothesis Creation and Testing Process', 100 ,30);
+  // The first step is to create two hypotheses, one null and one alternate
+  fill('gray')
+  square(25,50,100,20)
+  fill('white');
+  textSize(12);
+  text('1. Create a null \n    and alternate \n    hypothesis', 30, 75);
+  line(125, 100, 175, 100);
+  // The second step is to determine the level of significance
+fill('gray')
+  square(175,50,100,20)
+  fill('white');
+  textSize(12);
+  text('2. Determine a \n    level of \n    significance', 180, 75);
+  line(275, 100, 315, 100);
+  // The third step is to identify the test statistic of the hypothesis
+  fill('gray')
+  square(315,50,100,20)
+  fill('white');
+  textSize(12);
+  text('3.Identify the \n  test statistic', 320, 75);
+  line(370, 150, 370, 200);
+  // The fourth step is to formulate a decision rule
+   fill('gray')
+  square(315,200,100,20)
+  fill('white');
+  textSize(12);
+  text('4.Formulate a \n  decision rule', 320, 225);
+  line(275, 250, 315, 250);
+  // The fifth step is to take a sample and arrive at a decision
+    fill('gray')
+  square(175,200,100,20)
+  fill('white');
+  textSize(12);
+  text('5.Take a sample \n    and arrive at \n    a decision', 180, 225);
+  line(225, 300, 150, 350);
+  line(225,300,300,350)
+  // The last step requires one to decide which hypothesizes to accept and which to reject 
+  fill('gray')
+  circle(150, 350, 100);
+  textSize(10)
+  fill('white')
+  text('Accept the null\nhypothesis,\nreject the alternate',110,340)
+  fill('gray')
+  circle(300,350,100)
+  textSize(10)
+  fill('white')
+  text('Accept the alternate\nhypothesis, reject\n the null', 255,340)
+}
