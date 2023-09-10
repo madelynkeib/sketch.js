@@ -1,0 +1,20 @@
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background('black');
+  let x = 350
+  let y = 250
+  let dia = 250 
+  blendMode(LIGHTEST)
+  fill('red');
+  circle(x,y,dia)
+  
+  fill('green');
+  circle(x-50,y+100,dia)
+  
+  fill('blue');
+  circle(x+50,y+100,dia) 
+  
+}
