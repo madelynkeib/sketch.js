@@ -29,3 +29,8 @@ function draw() {
   fill('black');
   ellipse(mx, my, 2*radius, 2*radius);
 }
+
+//I took the code from the example on the p5 
+webside and changed the rectangle to a circle 
+to make it look like an eye and change the 
+colors to make a blue eye with a black pupil 
