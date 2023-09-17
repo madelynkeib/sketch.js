@@ -18,3 +18,7 @@ function draw() {
   stroke(5);
   line(360,0,360,400)
 }
+//I use an if/else statement to make the text show 
+up on the right side if the curser was on the right 
+and to say left if it was on anything else, aka the 
+left side
