@@ -1,0 +1,14 @@
+let blob;
+
+function setup(){
+  createCanvas(windowWidth, windowHeight);
+  
+  blob = new Blobbo();
+}
+
+function draw(){
+  background('#fff');
+  blob.draw();
+}
+
+//I found a blob online and made slight edits 
