@@ -1,0 +1,13 @@
+let loc = 50;
+
+function setup() {
+  createCanvas(600, 600);
+}
+
+function draw() {
+  background('white');
+  text("House prepares for next hurdle: Efforts to oust McCarthy as speaker", loc, 500)
+  text("Here's the biggest news you missed this weekend", loc, 200)
+  text ("Put her name on it! Simone Biles does Yurchenko double pike at worlds, will have it named for her", loc, 350)
+  loc = loc + 5
+}
