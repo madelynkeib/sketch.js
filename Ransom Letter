@@ -1,0 +1,43 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background('white');
+  textSize(15)
+  textFont('Georgia')
+  text("h", 50,50)
+  textSize(20)
+  textFont('Impact')
+  text('i', 60, 50)
+  textSize(10)
+  textFont('Times New Roman')
+  text('I', 75, 50)
+  textSize(25)
+  textFont('arial')
+  text('m', 80, 50)
+  textSize(20)
+  textFont('Calibri')
+  text('M', 120, 50)
+  textSize(15)
+  textFont('Comic Sans MS')
+  text('a', 140, 50)
+  textSize(10)
+  textFont('Roboto')
+  text('d', 150, 50)
+  textSize(18)
+  textFont('Copperplate Gothic')
+  text('e', 160, 50)
+  textSize(40)
+  textFont('Optima')
+  text('l', 165, 50)
+  textSize(24)
+  textFont('Arial Black')
+  text('y', 175, 50)
+  textSize(17)
+  textFont('Consolas')
+  text('n', 191, 50)
+  textSize(20)
+  textFont('Palatino')
+  text(':)', 210, 50)  
+}
