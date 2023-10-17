@@ -1,0 +1,25 @@
+Emoji Moodring
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background('violet');
+    fill('yellow')
+  circle(200,200,200);
+  
+    fill('black')
+  circle(170,175,30);
+  
+   fill("black")
+  circle(230,175,30);
+  
+      var startAng = -.1*PI
+      var endAng = .9*PI
+      var smileDiam = .6*200;
+      arc(200, 220, smileDiam, smileDiam, startAng, endAng);
+  
+  rotate(PI*1/200)
+}
+
+//I tried to make the smile rotate so that it would turn into a frowning face and back but I cant figure out how to make the rotate funtion work. 
