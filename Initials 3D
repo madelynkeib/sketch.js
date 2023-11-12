@@ -1,0 +1,12 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  textSize(40)
+  text('M D K',150,200)
+  textSize(40)
+  fill('red')
+  text('M D K',155,200)
+}
