@@ -1,0 +1,39 @@
+function ChessPiece(x, y, color) {
+  this.x = x;
+  this.y = y;
+  this.color = color; 
+  this.isActive = true; 
+
+  this.isValidMove = function(newX, newY) {
+    if (this.color === 'white') {
+      return newY === this.y - 1 && newX === this.x;
+    } else {
+      return newY === this.y + 1 && newX === this.x;
+        }
+      };
+this.display = function() {
+  fill(this.color);
+  ellipse(this.x * 50 + 25, this.y * 50 + 25, 40, 40);
+      };
+    }
+
+let pawn;
+
+function setup() {
+  createCanvas(400, 400);
+  pawn = new ChessPiece(3, 6, 'white');
+    }
+function draw() {
+  background(220);
+  pawn.display();
+    }
+
+function mouseClicked() {
+let newX = floor(mouseX / 50);
+let newY = floor(mouseY / 50);
+
+if (pawn.isValidMove(newX, newY)) {
+    pawn.x = newX;
+    pawn.y = newY;
+      }
+    }
